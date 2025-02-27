@@ -1,0 +1,16 @@
+.container{
+    background-color: transparent;
+    border-radius:5px;
+    border:1px ridge orange;
+    box-shadow:3px 3px 7px orange;
+    width:100%;
+    margin:30px auto 50px auto;
+    padding:50px;
+}
+.container:hover{
+    box-shadow:-3px -3px 5px orange;
+}
+#logout{
+   float:right;
+   margin-left:400px;
+}

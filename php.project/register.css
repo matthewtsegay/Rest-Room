@@ -1,0 +1,62 @@
+.container-fluid{
+    border-radius:5px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: orange; 
+    opacity:.5;
+    border-radius:10px;
+}
+li {
+    float: left; 
+}
+
+li a {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     padding-left:40px;
+     text-decoration: none;
+     }
+
+li a:hover{
+         background-color:white; 
+         text-decoration: none;
+         color:black;
+                        }
+body{
+    padding:50px;
+}
+.container{
+    background-color: transparent;
+    border-radius:5px;
+    border:1px ridge orange;
+    box-shadow:3px 3px 7px orange;
+    max-width:400px;
+    margin:30px auto 50px auto;
+    padding:50px;
+}
+.container:hover{
+    box-shadow:-3px -3px 5px orange;
+}
+input{
+    border-color:orange;
+    background-color:rgb(238, 206, 147);
+}
+input:hover{
+    background-color:rgb(238, 206, 147);
+    border-color:orange;
+    box-shadow:2px 2px 2px orange;
+}
+input:active{
+    background-color:orange;
+    border-color:orange;
+    box-shadow:inset;
+}
+.form-group{
+    margin-bottom:30px;
+}
